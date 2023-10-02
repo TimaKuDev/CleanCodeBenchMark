@@ -26,10 +26,11 @@ Explain how users can use the benchmarking tool you've created to replicate your
 
 bash
 Copy code
-# Example usage commands
+```
 $ git clone https://github.com/yourusername/your-repo.git
 $ cd your-repo
 $ dotnet run --benchmark
+```
 Methodology
 Describe the methodology you followed to conduct the benchmark analysis. This should include details on the benchmarks performed, the test environment, and any specific metrics or criteria you used to evaluate the claims.
 
