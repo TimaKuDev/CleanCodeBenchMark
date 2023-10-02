@@ -8,6 +8,10 @@ internal class Program
     {
         //BenchmarkRunner.Run<FirstCleanCode>();
         BenchmarkRunner.Run<SecondCleanCode>();
+        BenchmarkRunner.Run<BestCases>();
+        BenchmarkRunner.Run<BestCases_>();
+        BenchmarkRunner.Run<WorstCases>();
+        BenchmarkRunner.Run<WorstCases_>();
         //List<ShapeBase> _shapesClass = new List<ShapeBase>(20);
         //List<ShapeUnion> _shapeUnion = new List<ShapeUnion>();
         //int shapreCreator = 0;
