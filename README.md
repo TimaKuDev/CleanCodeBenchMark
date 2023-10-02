@@ -25,8 +25,11 @@ $ dotnet run --benchmark
 # Results
 * The claim that switch case performance is better than polymorphism is incorrect. In both parts of the video, the benchmark results indicate that polymorphism performs better than switch cases.
 * The claim about the table-driven case is correct. The benchmark results show that the table-driven case consistently performs much better than both switch case and polymorphism in both parts of the video.
-First Part BenchMark: ![image](https://github.com/TimaKuDev/CleanCodeBenchMark/assets/53705199/9161dedb-9924-4efc-9774-4fa17a367a36)
-Second Part BenchMark: ![image](https://github.com/TimaKuDev/CleanCodeBenchMark/assets/53705199/eada4cb6-45d8-4f3b-bbf6-e26da52ed4ff)
+
+* First Part Benchmark:
+![image](https://github.com/TimaKuDev/CleanCodeBenchMark/assets/53705199/9161dedb-9924-4efc-9774-4fa17a367a36)
+* Second Part BenchMark:
+![image](https://github.com/TimaKuDev/CleanCodeBenchMark/assets/53705199/eada4cb6-45d8-4f3b-bbf6-e26da52ed4ff)
 
 # Benchmarking Details
 
