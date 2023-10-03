@@ -34,10 +34,10 @@ $ dotnet run --benchmark
 ![image](https://github.com/TimaKuDev/CleanCodeBenchMark/assets/53705199/03721a31-8217-46a5-831c-d4ece26010df)
 * First Part Worst Case Scenario:
 ![image](https://github.com/TimaKuDev/CleanCodeBenchMark/assets/53705199/a7cea882-1eee-415d-b9be-ae4ca858791c)
-
 * Second Part Best Case Scenario:
 ![image](https://github.com/TimaKuDev/CleanCodeBenchMark/assets/53705199/81908813-3cad-46b0-905e-a146842c5332)
 * Second Part Worst Case Scenario:
+![image](https://github.com/TimaKuDev/CleanCodeBenchMark/assets/53705199/631747e9-9679-4ce7-abc1-fe1ab41abf2b)
 
 
 # Benchmarking Details
