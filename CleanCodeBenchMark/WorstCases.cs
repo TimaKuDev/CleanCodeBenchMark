@@ -30,7 +30,7 @@ namespace Benchmark
         }
 
         [Benchmark]
-        public void TotalAreaVTBL()
+        public void TotalAreaVTBLWorstCases()
         {
             float accum = CleanCodeTotalArea(_shapesClass);
         }
@@ -47,7 +47,7 @@ namespace Benchmark
         }
 
         [Benchmark]
-        public void TotalAreaSwitch()
+        public void TotalAreaSwitchWorstCases()
         {
             float accum = DirtyCodeTotalArea(_shapeUnion);
         }
@@ -88,7 +88,7 @@ namespace Benchmark
         }
 
         [Benchmark]
-        public void TotalAreaTable()
+        public void TotalAreaTableWorstCases()
         {
             float accum = GetAreaUnion(_shapeUnion2);
         }

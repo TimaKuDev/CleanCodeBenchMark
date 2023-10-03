@@ -3,6 +3,11 @@ using CleanCodeBenchMark;
 
 namespace Benchmark
 {
+
+    [Config(typeof(AntiVirusFriendlyConfig))]
+    [MemoryDiagnoser(true)]
+    [Orderer(BenchmarkDotNet.Order.SummaryOrderPolicy.FastestToSlowest)]
+    [RankColumn]
     public class BestCases_
     {
         [Params(10, 100, 1_000, 10_000, 100_000)] public int Size { get; set; }
@@ -26,7 +31,7 @@ namespace Benchmark
         }
 
         [Benchmark]
-        public void CornerAreaVTBL()
+        public void CornerAreaVTBLBestCases_()
         {
             float accum = CleanCodeTotalArea(_shapesClass);
         }
@@ -43,7 +48,7 @@ namespace Benchmark
         }
 
         [Benchmark]
-        public void CornerAreaSwitch()
+        public void CornerAreaSwitchBestCases_()
         {
             float accum = DirtyCodeTotalArea(_shapeUnion);
         }
@@ -108,7 +113,7 @@ namespace Benchmark
         }
 
         [Benchmark]
-        public void CornerAreaTable()
+        public void CornerAreaTableBestCases_()
         {
             float accum = GetCornerAreaTable(_shapeUnion2);
         }

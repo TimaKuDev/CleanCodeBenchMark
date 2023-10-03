@@ -30,7 +30,7 @@ namespace Benchmark
         }
 
         [Benchmark]
-        public void CornerAreaVTBL()
+        public void CornerAreaVTBLWorstCases_()
         {
             float accum = CleanCodeTotalArea(_shapesClass);
         }
@@ -47,7 +47,7 @@ namespace Benchmark
         }
 
         [Benchmark]
-        public void CornerAreaSwitch()
+        public void CornerAreaSwitchWorstCases_()
         {
             float accum = DirtyCodeTotalArea(_shapeUnion);
         }
@@ -112,7 +112,7 @@ namespace Benchmark
         }
 
         [Benchmark]
-        public void CornerAreaTable()
+        public void CornerAreaTableWorstCases_()
         {
             float accum = GetCornerAreaTable(_shapeUnion2);
         }
