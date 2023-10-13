@@ -12,5 +12,9 @@ internal class Program
         //BenchmarkRunner.Run<BestCases_>();
         //BenchmarkRunner.Run<WorstCases>();
         BenchmarkRunner.Run<WorstCases_>();
+        ///hola
+        ///that
+        ///is a
+        ///test
     }
 }
