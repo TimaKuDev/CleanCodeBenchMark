@@ -12,17 +12,5 @@ internal class Program
         //BenchmarkRunner.Run<BestCases_>();
         //BenchmarkRunner.Run<WorstCases>();
         BenchmarkRunner.Run<WorstCases_>();
-
-        /*
-         * 
-         * 
-         * 
-         * 
-         * 
-         * 
-         * 
-         * 
-         * 
-         */
     }
 }
