@@ -16,5 +16,6 @@ internal class Program
         ///that
         ///is a
         ///test
+        ///2
     }
 }
