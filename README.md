@@ -13,15 +13,6 @@ Features
 List the key features or functionalities of your benchmarking project:
 BenchmarkDotNet V 0.13.8 tool for measuring performance.
 
-# Usage
-bash
-```
-$ git clone https://github.com/yourusername/your-repo.git
-$ cd your-repo
-$ dotnet run --benchmark
-```
-
-
 # Results
 * The claim that switch case performance is better than polymorphism is incorrect. In both parts of the video, the benchmark results indicate that polymorphism performs better than switch cases.
 * The claim about the table-driven case is correct. The benchmark results show that the table-driven case consistently performs much better than both switch case and polymorphism in both parts of the video.
